@@ -15,6 +15,7 @@ $(document).ready(function() {
 				"boxShadow": "0px -2px 3px"
 			});
 			$(".nav-link").css("color", "black");
+			$(".btn-nav").css("color", "white");
 			$(".btn-nav").css({
 				"background": "#4caf50",
 				"color": "white"
@@ -42,11 +43,7 @@ $(document).ready(function() {
 			scrollTop: $("#" + $(this).data("scroll")).offset().top + 1
 		}, 500);
 	});
-});
 
-$(document).ready(function() {
-	$(".owl-carousel").owlCarousel();
-});
 
 //Counter Section
 $('span').each(function() {
@@ -83,5 +80,7 @@ $('.scroll-to-top').click(function(e) {
 		scrollTop: 0
 	}, 500);
 
+
+});
 
 });
